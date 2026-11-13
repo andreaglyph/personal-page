@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio profesional de Andrea González, desarrolladora de software y diseñadora gráfica.">
+  <meta name="theme-color" content="#f6f6f6">
+  <title>Andrea González — Desarrolladora de software</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+  <main class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#inicio">ANDREA GONZÁLEZ <span>/ PORTAFOLIO</span></a>
+      <nav class="nav-links" aria-label="Navegación principal">
+        <a href="#sobre-mi">Acerca de mí</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#formacion">Educación</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#certificados">Certificados</a>
+      </nav>
+      <a class="contact-link" href="#contacto">Contacto ↗</a>
+      <button class="menu-button" id="menuButton" aria-expanded="false" aria-controls="mobileNav">Menú</button>
+    </header>
+
+    <nav class="mobile-links" id="mobileNav" aria-label="Navegación móvil">
+      <a href="#sobre-mi">Acerca de mí</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#formacion">Educación</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#certificados">Certificados</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section class="hero" id="inicio">
+      <div>
+        <p class="hero-kicker">Desarrollo de software · Diseño gráfico · Medellín, Colombia</p>
+        <h1>Desarrolladora de software con más de tres años de experiencia en desarrollo full stack, especializada en Java con Spring Boot y Angular.</h1>
+      </div>
+      <div class="hero-bottom">
+        <div class="hero-tech" aria-label="Tecnologías y herramientas">
+          <span>Java</span>
+          <span>Spring Boot</span>
+          <span>Angular</span>
+          <span>Python</span>
+          <span>Figma</span>
+        </div>
+        <p class="hero-note">Desarrollo full stack<br>con visión de diseño</p>
+      </div>
+    </section>
+
+    <section class="section split-section" aria-labelledby="aporte-title">
+      <div>
+        <h2 class="section-title" id="aporte-title">Cómo puedo aportar.</h2>
+        <p class="section-intro">Combino conocimientos técnicos y sensibilidad visual para participar en distintas etapas de creación de un producto digital.</p>
+      </div>
+
+      <div class="cards-grid">
+        <article class="service-card">
+          <div class="service-top">
+            <span class="icon-circle" aria-hidden="true">⌘</span>
+            <p>Desarrollo aplicaciones backend con Java y Spring Boot, creando servicios e integraciones que responden a las necesidades del producto.</p>
+          </div>
+          <div class="service-bottom"><h3>Backend</h3><span class="service-number">01</span></div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-top">
+            <span class="icon-circle" aria-hidden="true">ϟ</span>
+            <p>Integro módulos e interfaces con HTML, CSS, JavaScript y Angular, buscando una experiencia clara y funcional.</p>
+          </div>
+          <div class="service-bottom"><h3>Frontend</h3><span class="service-number">02</span></div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-top">
+            <span class="icon-circle" aria-hidden="true">✎</span>
+            <p>Mi formación en diseño gráfico me permite cuidar la composición, la jerarquía visual y los detalles de las interfaces.</p>
+          </div>
+          <div class="service-bottom"><h3>Diseño gráfico</h3><span class="service-number">03</span></div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-top">
+            <span class="icon-circle" aria-hidden="true">T</span>
+            <p>He colaborado con equipos multidisciplinarios en entornos remotos, utilizando metodologías ágiles y herramientas de gestión.</p>
+          </div>
+          <div class="service-bottom"><h3>Trabajo colaborativo</h3><span class="service-number">04</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-panel" id="sobre-mi">
+      <div>
+        <h2 class="section-title">Acerca de mí.</h2>
+        <p class="section-intro">Tecnología y creatividad en una misma forma de trabajar.</p>
+      </div>
+      <div class="about-copy">
+        <p>He trabajado en entornos remotos, colaborando con equipos multidisciplinarios bajo metodologías ágiles y entregando soluciones de software para clientes del sector salud.</p>
+        <p>Me distingo por combinar habilidades técnicas con una formación en diseño gráfico, lo que me permite aportar una visión integral en el desarrollo de interfaces y experiencias de usuario.</p>
+        <p>Actualmente estoy en búsqueda de nuevos retos profesionales donde seguir creciendo y aportando valor.</p>
+      </div>
+    </section>
+
+    <section class="section split-section" id="experiencia">
+      <div>
+        <h2 class="section-title">Experiencia profesional.</h2>
+        <p class="section-intro">Desarrollo, mantenimiento y soporte de soluciones de software para clientes del sector salud.</p>
+      </div>
+      <article class="content-card">
+        <div class="experience-head">
+          <div>
+            <h3>Java Developer</h3>
+            <p>Conexia S.A.S. · Remoto</p>
+          </div>
+          <div class="date-label">Diciembre 2022 — Mayo 2026</div>
+        </div>
+        <div class="experience-list">
+          <p>Desarrollo de aplicaciones backend en Java con Spring Boot e integración de módulos frontend con JavaScript y Angular.</p>
+          <p>Administración y gestión de bases de datos relacionales en PostgreSQL, MySQL y SQL Server.</p>
+          <p>Mantenimiento evolutivo y correctivo de aplicaciones existentes, mejorando rendimiento y estabilidad.</p>
+          <p>Participación en revisiones de código y colaboración con equipos de desarrollo bajo estándares de calidad.</p>
+          <p>Soporte técnico a clientes, diagnóstico y resolución de incidencias en ambientes productivos.</p>
+          <p>Control de versiones con Git y gestión de tareas en Jira y Bitbucket bajo metodologías Scrum y Kanban.</p>
+          <p>Manejo de entornos Linux, Ubuntu y macOS en ambiente de desarrollo remoto.</p>
+          <p>Uso de Windsurf, Kiro y Claude como herramientas de desarrollo asistido por IA.</p>
+          <p>Despliegues en ambientes de desarrollo, QA y producción mediante Jenkins.</p>
+          <p>Manejo de servidores remotos mediante Guacamole.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="section split-section" id="formacion">
+      <div>
+        <h2 class="section-title">Educación.</h2>
+        <p class="section-intro">Formación en programación de software y diseño gráfico.</p>
+      </div>
+      <div class="education-grid">
+        <article class="education-card">
+          <span class="year">2022 — 2023</span>
+          <div><h3>Técnica en Programación de Software</h3><p>SENA - CENSA</p></div>
+        </article>
+        <article class="education-card">
+          <span class="year">2021 — 2023</span>
+          <div><h3>Técnico Laboral en Diseño Gráfico</h3><p>CESDE</p></div>
+        </article>
+        <article class="education-card">
+          <span class="year">2023 — Actualmente</span>
+          <div><h3>Tecnología en Desarrollo de Software</h3><p>Institución Universitaria ITM</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split-section" id="habilidades">
+      <div>
+        <h2 class="section-title">Habilidades.</h2>
+        <p class="section-intro">Tecnologías, herramientas y conocimientos que utilizo en mi trabajo.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card"><h3>Backend</h3><p>Java<br>Spring Boot<br>Python</p></article>
+        <article class="skill-card"><h3>Frontend</h3><p>HTML5 · CSS3<br>JavaScript<br>Angular</p></article>
+        <article class="skill-card"><h3>Herramientas</h3><p>Git · Jira · Bitbucket<br>Linux · Ubuntu · macOS</p></article>
+        <article class="skill-card"><h3>IA para desarrollo</h3><p>Windsurf<br>Kiro<br>Claude</p></article>
+        <article class="skill-card"><h3>Diseño</h3><p>Figma<br>Adobe Illustrator<br>Photoshop · InDesign · Lightroom</p></article>
+        <article class="skill-card">
+          <h3>Idiomas</h3>
+          <p><strong class="language-label">Inglés:</strong> A1<br><strong class="language-label">Español:</strong> Nativo</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split-section" id="certificados">
+      <div>
+        <h2 class="section-title">Certificados.</h2>
+        <p class="section-intro">Cursos complementarios realizados en 2023 con Udemy Conexia.</p>
+      </div>
+      <div class="cert-grid">
+        <article class="certificate-card"><span class="certificate-number">01</span><div><h3>GraphQL con Angular de 0 a Experto</h3><p>Udemy Conexia · 2023 · 42.5 hrs</p></div></article>
+        <article class="certificate-card"><span class="certificate-number">02</span><div><h3>Lambdas y Streams en Java. Programación funcional</h3><p>Udemy Conexia · 2023 · 7.5 hrs</p></div></article>
+        <article class="certificate-card"><span class="certificate-number">03</span><div><h3>Master Java Web Services and REST API Spring Boot</h3><p>Udemy Conexia · 2023 · 12 hrs</p></div></article>
+        <article class="certificate-card"><span class="certificate-number">04</span><div><h3>Microservicios con Spring Boot, Cloud y Docker</h3><p>Udemy Conexia · 2023 · 14.5 hrs</p></div></article>
+        <article class="certificate-card"><span class="certificate-number">05</span><div><h3>Fundamentos de PostgreSQL</h3><p>Udemy Conexia · 2023 · 6 hrs</p></div></article>
+        <article class="certificate-card"><span class="certificate-number">06</span><div><h3>Principios SOLID y Clean Code</h3><p>Udemy Conexia · 2023 · 6.5 hrs</p></div></article>
+      </div>
+    </section>
+
+    <section class="contact-panel" id="contacto">
+      <div>
+        <p class="eyebrow">Contacto</p>
+        <h2>Hablemos de nuevas oportunidades.</h2>
+        <p class="contact-copy">Estoy en búsqueda de nuevos retos profesionales donde pueda seguir creciendo y aportar valor.</p>
+      </div>
+      <div class="contact-details">
+        <div class="contact-item"><span>Correo</span><a href="mailto:andreacgonzalezl9@gmail.com">andreacgonzalezl9@gmail.com</a></div>
+        <div class="contact-item"><span>Teléfono</span><a href="tel:+573003311050">300 331 1050</a></div>
+        <div class="contact-item"><span>LinkedIn</span><a href="https://www.linkedin.com/in/soyandreagonzalez/" target="_blank" rel="noopener noreferrer">soyandreagonzalez ↗</a></div>
+        <div class="contact-item"><span>GitHub</span><a href="https://github.com/andreaglyph" target="_blank" rel="noopener noreferrer">soyandreaglyph ↗</a></div>
+        <div class="contact-item"><span>Ubicación</span><strong>Medellín, Colombia</strong></div>
+      </div>
+    </section>
+
+    <footer>
+      <span>ANDREA GONZÁLEZ</span>
+      <span>Portafolio profesional · <span id="year"></span></span>
+      <a href="#inicio">Volver arriba ↑</a>
+    </footer>
+    <script>
+    const menuButton = document.getElementById("menuButton");
+    const mobileNav = document.getElementById("mobileNav");
+
+    menuButton.addEventListener("click", () => {
+      const expanded = menuButton.getAttribute("aria-expanded") === "true";
+      menuButton.setAttribute("aria-expanded", String(!expanded));
+      mobileNav.classList.toggle("open", !expanded);
+      menuButton.textContent = expanded ? "Menú" : "Cerrar";
+    });
+
+    mobileNav.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        mobileNav.classList.remove("open");
+        menuButton.setAttribute("aria-expanded", "false");
+        menuButton.textContent = "Menú";
+      });
+    });
+
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  </main>
+</body>
+</html>
